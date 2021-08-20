@@ -7,7 +7,7 @@ class Author(models.Model):
     address = models.CharField('Адрес', max_length=100)
 
 
-class Another_Author(models.Model):
+class AnotherAuthor(models.Model):
     last_name = models.CharField('Фамилий', max_length=100)
 
 
