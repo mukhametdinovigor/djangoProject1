@@ -7,7 +7,7 @@ class Author(models.Model):
     address = models.CharField('Адрес', max_length=100)
 
 
-class Post(models.Model):
+class Book(models.Model):
     title = models.CharField('Название', max_length=100)
     text = models.TextField('Текст')
     author = models.ForeignKey(Author, on_delete=models.CASCADE, verbose_name='Автор')
