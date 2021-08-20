@@ -9,8 +9,8 @@ class Author(models.Model):
 
 class AnotherAuthor(models.Model):
     last_name = models.CharField('Фамилий', max_length=100)
-
-
+    text = models.TextField('Текст')
+    author = models.ForeignKey(Author, on_delete=models.CASCADE, verbose_name='Автор')
 
 
 class Book(models.Model):
