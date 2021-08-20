@@ -6,6 +6,15 @@ class Author(models.Model):
     last_name = models.CharField('Фамилий', max_length=100)
     address = models.CharField('Адрес', max_length=100)
 
+'''
+sdfgdsfg
+sdfgsdfg
+dfgdfg
+sdfg
+dfgsdfg
+SDSD
+sdgfsdfg
+'''
 
 class AnotherAuthor(models.Model):
     last_name = models.CharField('Фамилий', max_length=100)
